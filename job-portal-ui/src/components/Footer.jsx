@@ -155,9 +155,12 @@ const Footer = () => {
               </a>
               <Link
                 to="/contact"
-                className="hover:text-white transition-colors duration-300"
+                className="group relative hover:text-white transition-colors duration-300"
               >
                 Contact Us
+                <span className="pointer-events-none absolute bottom-full left-1/2 mb-2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gray-700 px-3 py-1.5 text-xs text-white opacity-0 shadow-lg transition-opacity duration-300 group-hover:opacity-100">
+                  Chennai - 55889966
+                </span>
               </Link>
             </div>
             <div className="text-center md:text-right">
